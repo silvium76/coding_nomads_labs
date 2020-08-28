@@ -7,3 +7,14 @@ Letter input: o
 Result: 4
 
 '''
+
+# get the phrase
+phrase = input("Please enter a phrase: ")
+print(phrase)
+
+# get the letter
+letter = input("Please enter a letter: ")
+print(letter)
+
+# find the index
+print(phrase.find(letter))

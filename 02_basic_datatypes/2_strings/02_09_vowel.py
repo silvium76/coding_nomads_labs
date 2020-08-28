@@ -6,3 +6,12 @@ CHALLENGE: Can you change the script so that it counts the occurrence of each in
            in the string and print a count for each of them?
 
 '''
+
+phrase = input("Please enter a phrase: ")
+print(phrase)
+
+vowel1 = "a"
+vowel2 = "e"
+vowel3 = "i"
+vowel4 = "o"
+vowel5 = "u"

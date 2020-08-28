@@ -10,3 +10,19 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+x = 2
+y = float(x)
+print(y, type(y))
+
+a = 3.4
+b = int(a)
+print(b, type(b))
+
+c = a / b
+print(c, type(c))
+
+first_number = int(input("Please enter first number: "))
+second_number = int(input("Please enter second number: "))
+result = first_number * second_number
+print("The result = ",result)
